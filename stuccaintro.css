@@ -4,6 +4,7 @@ body{
 .left{
     height:100vh;
     position: absolute;
+    z-index:-10;
     top:0vh;
     left:0;
     width:65vw;
@@ -13,15 +14,16 @@ body{
     height:100vh;
     position: absolute;
     left:65vw;
+    z-index:-10;
     top:0vh;
     background-color: rgb(216, 81, 81);
     width:35vw;
 }
 .leftcontainer{
     height:100vh;
-
     position: absolute;
     top:100vh;
+    z-index:0;
     left:0;
     width:65vw;
 }
@@ -29,6 +31,7 @@ body{
     height:100vh;
     position: absolute;
     left:65vw;
+    z-index:0;
     top:-100vh;
     width:35vw;
 }
