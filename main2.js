@@ -86,8 +86,8 @@
           renderer.view.style.height    = '100%';
           renderer.view.style.top       = '100%';
           renderer.view.style.left      = '100%';
-          renderer.view.style.webkitTransform = 'translate( -46%, -90% ) scale(1.0)';
-          renderer.view.style.transform = 'translate( -32%, -84% ) scale(1.0)'; 
+          renderer.view.style.webkitTransform = 'translate( -35.25%, -84% ) scale(1.0)';
+          renderer.view.style.transform = 'translate( -35.25%, -84% ) scale(1.0)'; 
           renderer.view.style.zIndex = '10000000000000000';    
         } else {
           renderer.view.style.maxWidth  = '100%';
@@ -345,9 +345,6 @@
           document.getElementsByClassName("bottomCircle")[0].style.transform = "translateY(-10vh)";
           document.getElementsByClassName("topCircle")[0].style.transition = "transform 1s";
           document.getElementsByClassName("topCircle")[0].style.transform = "translateY(0)";
-
-
-
           document.getElementsByClassName("bottomGrid")[0].style.transition = "transform 1s";
           document.getElementsByClassName("bottomGrid")[0].style.transform = "translateX(0vh) translateY(0vw)";
           document.getElementsByClassName("octagon")[0].style.transition = "transform 1s";
@@ -361,8 +358,8 @@
         
  
 
-          document.getElementsByClassName("bottomCross")[0].style.animation = "anticlockwise 1s linear infinite";
-          document.getElementsByClassName("topCross")[0].style.animation = "clockwise 1s linear infinite";
+          document.getElementsByClassName("bottomCross")[0].style.animation = " anticlockwise 2.5s linear infinite ";
+          document.getElementsByClassName("topCross")[0].style.animation = " clockwise 2.5s linear infinite ";
 
 
 
@@ -426,8 +423,8 @@
            setTimeout(function(){
 
 
-            document.getElementsByClassName("bottomCross")[0].style.animation = "anticlockwise 1s linear infinite";
-            document.getElementsByClassName("topCross")[0].style.animation = "clockwise 1s linear infinite";
+            document.getElementsByClassName("bottomCross")[0].style.animation = " anticlockwise 2.5s linear infinite";
+            document.getElementsByClassName("topCross")[0].style.animation = " clockwise 2.5s linear infinite";
 
 
 
